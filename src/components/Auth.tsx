@@ -175,14 +175,14 @@ export function Auth() {
           >
             {loading ? <Loader2 className="animate-spin h-5 w-5" /> : "Sign in"}
           </button>
-          <button
+          {/* <button
             type="submit"
             onClick={handleSignUp}
             disabled={loading}
             className="group relative w-full flex justify-center py-2 px-4 text-sm font-medium rounded-xl text-theme-text glass-card hover:bg-theme-accent/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-theme-accent disabled:opacity-50 disabled:cursor-not-allowed transition-all"
           >
             {loading ? <Loader2 className="animate-spin h-5 w-5" /> : "Sign up"}
-          </button>
+          </button> */}
         </div>
       </form>
     </div>
