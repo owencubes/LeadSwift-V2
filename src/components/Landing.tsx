@@ -7,12 +7,6 @@ export function Landing() {
     <div className="min-h-screen text-theme-text">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-20">
-          <div className="inline-flex items-center space-x-2 px-4 py-2 glass-card rounded-full text-theme-accent mb-8">
-            <Sparkles className="h-4 w-4" />
-            <span className="text-sm font-medium tracking-wide uppercase">
-              Cut through the noise
-            </span>
-          </div>
 
           <h1 className="text-6xl lg:text-7xl font-extrabold tracking-tight mb-8 max-w-4xl mx-auto">
             Niche-focused leads,{" "}
